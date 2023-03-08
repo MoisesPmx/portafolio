@@ -1,0 +1,83 @@
+.headerPrincipal{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background-color: #326273;
+    color: whitesmoke;
+    position: sticky;
+        top: 0;
+}
+
+.header__navlinks{
+    display: none;
+}
+
+.header__logo{
+    height: 35px;
+    padding: 15px 5px 15px 15px;
+}
+.header__secundario{
+    display: flex;
+    width: 100%;
+}
+.header__contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nombre{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.header__email{
+    font-size: 0.8rem;
+    padding: 20px 15px 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .headerPrincipal{
+        position: sticky;
+        top: 0;
+    }
+    .header__logo{
+        padding: 15px 5px 15px 80px;
+    }
+    .header__email{
+        padding: 20px 80px 20px 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .headerPrincipal{
+        display: flex;
+        align-items: center;
+        width: 100%;     
+        position: sticky;
+        top: 0;
+    }
+    .header__secundario{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15% 0 15%;
+    }
+    .header__logo{
+        padding: 15px 5px 15px 0px;
+    }
+    .header__email{
+        padding: 20px 0px 20px 0;
+    }
+    .header__navlinks{
+        display: block;
+        font-size: .85rem;
+    }
+    .header__nav{
+        display: flex;
+        list-style-type: none;
+    }
+    .header__link{
+        padding: 0 7px 0 7px;
+        font-weight: 500;
+    }
+}

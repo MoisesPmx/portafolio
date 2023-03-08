@@ -1,0 +1,46 @@
+.sobreMi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #326273;
+    padding: 40px 15px 40px 15px;
+    height: 650px;    
+    color: whitesmoke;
+}
+
+.sobreMi__titulo{
+    text-align: center;    
+}
+
+.sobreMi__descripcion{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.sobreMi__firma{
+    width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+    .sobreMi{
+    padding: 15px 80px 15px 80px;
+    height: 500px;    
+   }
+   .sobreMi__firma{
+    width: 250px;
+   }
+   .sobreMi__titulo{
+    padding: 40px 0 40px 0;
+   }
+}
+
+@media screen and (min-width: 1000px) {
+    .sobreMi{
+        padding: 85px 15% 40px 15%;
+    }
+    .sobreMi__titulo{
+        padding: 0 0 40px 0;
+       }
+}

@@ -1,0 +1,137 @@
+.experiencia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #495057;
+    padding: 40px 15px 40px 15px;
+    color: #f5f5f5;
+}
+.experiencia__lista {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.experiencia__encriptador {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experiencia__ecommerce {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experiencia__portafolio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experiencia__contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.experiencia__imagen {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.experiencia__item {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+.experiencia__item-subtitulo {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 5px 0 15px 0;
+}
+
+.experiencia__boton {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.experiencia__boton-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #dee2e6;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    color: #000;
+}
+
+@media screen and (min-width: 768px) {
+    .experiencia {
+        padding: 20px 100px 50px 100px;
+    }
+    .experiencia__titulo{
+        padding: 40px 0 40px 0;
+    }
+    .experiencia__boton-item {
+        width: 160px;
+    }
+    .experiencia__box{
+        padding: 15px 0 15px 0;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .experiencia {
+        padding: 85px 15% 40px 15%;
+    }
+    .experiencia__titulo{
+        padding: 0 0 40px 0;
+    }
+    .experiencia__imagen {
+        width: 70%;
+    }
+    .experiencia__encriptador {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .experiencia__ecommerce {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .experiencia__portafolio {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .experiencia__contenedor {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencia__boton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        height: 160px;
+    }
+}
